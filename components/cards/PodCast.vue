@@ -13,6 +13,7 @@
                 <h2 class="font-semibold text-base md:text-lg lg:text-xl line-clamp-2 md:line-clamp-3 text-gray-700 dark:text-white">
                     {{ title }}
                 </h2>
+                <p class="truncate"> {{  description  }} </p>
             </div>
             <div class="pt-3 sm:pt-5 min-h-max h-max">
                 <NuxtLink :to="href"

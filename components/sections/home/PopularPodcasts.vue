@@ -27,79 +27,26 @@
             <div
                 class="grid grid-cols-2 items-stretch sm:grid-cols-3 lg:grid-cols-4 gap-x-3 gap-y-10 sm:gap-x-5 sm:gap-y-8">
 
-                <CardsPodCast title="Start your journey in SEO" 
-                    href="#" 
+                <CardsPodCast 
+                    :title="item.title" 
+                    :href="`/detail/${item.id}`"
                     duration="24min"
-                    cover-image="/images/podCast.webp" 
+                    :cover-image="item.image" 
                     category="" 
                     created-at=""
-                    description="Lorem ipsum dolor sit amet,  voluptates porro" 
-                />
-
-                <CardsPodCast title="Start your journey in SEO" 
-                    href="#" 
-                    duration="24min"
-                    cover-image="/images/podCast.webp" 
-                    category="" 
-                    created-at=""
-                    description="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae voluptates porro" 
-                />
-
-                <CardsPodCast title="Start your journey in SEO" 
-                    href="#" 
-                    duration="24min"
-                    cover-image="/images/podCast.webp" 
-                    category="" 
-                    created-at=""
-                    description="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae voluptates porro" 
-                />
-
-                <CardsPodCast title="Start your journey in SEO" 
-                    href="#" 
-                    duration="24min"
-                    cover-image="/images/podCast.webp" 
-                    category="" 
-                    created-at=""
-                    description="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae voluptates porro" 
-                />
-
-                <CardsPodCast title="Start your journey in SEO" 
-                    href="#" 
-                    duration="24min"
-                    cover-image="/images/podCast.webp" 
-                    category="" 
-                    created-at=""
-                    description="Lorem ipsum dolor sit amet,  voluptates porro" 
-                />
-
-                <CardsPodCast title="Start your journey in SEO" 
-                    href="#" 
-                    duration="24min"
-                    cover-image="/images/podCast.webp" 
-                    category="" 
-                    created-at=""
-                    description="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae voluptates porro" 
-                />
-
-                <CardsPodCast title="Start your journey in SEO" 
-                    href="#" 
-                    duration="24min"
-                    cover-image="/images/podCast.webp" 
-                    category="" 
-                    created-at=""
-                    description="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae voluptates porro" 
-                />
-
-                <CardsPodCast title="Start your journey in SEO" 
-                    href="#" 
-                    duration="24min"
-                    cover-image="/images/podCast.webp" 
-                    category="" 
-                    created-at=""
-                    description="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae voluptates porro" 
+                    :description="item.description" 
+                    v-for="item in popularCourse"
                 />
                 
             </div>
         </AtomsContainer>
     </section>
 </template>
+
+<script setup lang="ts">
+
+import { TCourse } from '@/entities/Course';
+const { popularCourse } = defineProps<{
+    popularCourse : TCourse[]
+}>()
+</script>

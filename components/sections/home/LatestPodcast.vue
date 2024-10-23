@@ -1,3 +1,4 @@
+
 <template>
     <section class="pt-20 md:pt-24 relative">
         <AtomsContainer>
@@ -33,27 +34,10 @@
                 <div data-slide-recent @scroll="initScroll()"
                     class="flex items-stretch gap-5 overflow-hidden overflow-x-auto invisible-scroll">
                     <div
+                        v-for="item in latestCourse"
                         class=" w-11/12 min-w-[91.666667%] xs:w-80 xs:min-w-[20rem] md:w-1/3 md:min-w-[33.333333%] lg:w-1/4 lg:min-w-[25%]">
-                        <CardsRecentPod title="How to hack a website with Html in simple way" duration="23min" href="#"
-                            cover-image="/images/sidebiew.webp" />
-                    </div>
-
-                    <div
-                        class=" w-11/12 min-w-[91.666667%] xs:w-80 xs:min-w-[20rem] md:w-1/3 md:min-w-[33.333333%] lg:w-1/4 lg:min-w-[25%]">
-                        <CardsRecentPod title="5 Principales you must know for writting clear code" duration="1h:22min" href="#"
-                            cover-image="/images/podCast.webp" />
-                    </div>
-
-                    <div
-                        class=" w-11/12 min-w-[91.666667%] xs:w-80 xs:min-w-[20rem] md:w-1/3 md:min-w-[33.333333%] lg:w-1/4 lg:min-w-[25%]">
-                        <CardsRecentPod title="Make you website request secure than you could mind" duration="12min" href="#"
-                            cover-image="/images/sidebiew.webp" />
-                    </div>
-
-                    <div
-                        class=" w-11/12 min-w-[91.666667%] xs:w-80 xs:min-w-[20rem] md:w-1/3 md:min-w-[33.333333%] lg:w-1/4 lg:min-w-[25%]">
-                        <CardsRecentPod title="How to get started with desktop developpement" duration="50min" href="#"
-                            cover-image="/images/sidebiew.webp" />
+                        <CardsRecentPod :title="item.title" duration="50min" :href="`/detail/${item.id}`"
+                            :cover-image="item.image" :price="item.price"/>
                     </div>
                 </div>
             </div>
@@ -62,7 +46,7 @@
 </template>
 
 <script lang="ts" setup>
-
+import { TCourse } from '@/entities/Course';
 
 // const scrollLeft = useState('scrollLeft', ()=> 0)
 const nextIsVisible = useState('nextIsVisible', () => false)
@@ -93,10 +77,14 @@ function scrollToRight():void{
     }
     element.scrollLeft += element.clientWidth
 }
-
+const { latestCourse } = defineProps<{
+    latestCourse : TCourse[]
+}>()
 onMounted(() => {
     if (window !== null) {
         initScroll()
     }
 })
+
+
 </script>

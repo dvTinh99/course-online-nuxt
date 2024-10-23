@@ -1,5 +1,7 @@
 <template>
-  <NuxtLayout>
-    <NuxtPage />
-  </NuxtLayout>
+  <!-- <client-only> -->
+    <NuxtLayout>
+      <NuxtPage />
+    </NuxtLayout>
+  <!-- </client-only> -->
 </template>
