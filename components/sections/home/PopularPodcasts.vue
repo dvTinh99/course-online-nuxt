@@ -18,11 +18,11 @@
                 <div class="">
                     <AtomsTitle texte="Phổ biến nhất" />
                 </div>
-                <div class="flex items-center min-w-max gap-5">
+                <!-- <div class="flex items-center min-w-max gap-5">
                     <AtomsLinkBtn href="#" variant="primary">
                         Xem thêm
                     </AtomsLinkBtn>
-                </div>
+                </div> -->
             </div>
             <div
                 class="grid grid-cols-2 items-stretch sm:grid-cols-3 lg:grid-cols-4 gap-x-3 gap-y-10 sm:gap-x-5 sm:gap-y-8">
@@ -31,6 +31,7 @@
                     :title="item.title" 
                     :href="`/detail/${item.id}`"
                     duration="24min"
+                    :price="item.price"
                     :cover-image="item.image || '#'" 
                     category="" 
                     created-at=""
