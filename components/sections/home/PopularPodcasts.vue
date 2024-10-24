@@ -31,7 +31,7 @@
                     :title="item.title" 
                     :href="`/detail/${item.id}`"
                     duration="24min"
-                    :cover-image="item.image" 
+                    :cover-image="item.image || '#'" 
                     category="" 
                     created-at=""
                     :description="item.description" 

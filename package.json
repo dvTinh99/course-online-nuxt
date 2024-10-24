@@ -4,9 +4,10 @@
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
-    "generate": "nuxt generate",
+    "generate": "nuxt generate; npm run deploy",
     "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
+    "postinstall": "nuxt prepare",
+    "deploy" : "cp -r ./.output/public ./php/FE"
   },
   "devDependencies": {
     "@nuxt/devtools": "^1.6.0",

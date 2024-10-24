@@ -37,7 +37,7 @@
                         v-for="item in latestCourse"
                         class=" w-11/12 min-w-[91.666667%] xs:w-80 xs:min-w-[20rem] md:w-1/3 md:min-w-[33.333333%] lg:w-1/4 lg:min-w-[25%]">
                         <CardsRecentPod :title="item.title" duration="50min" :href="`/detail/${item.id}`"
-                            :cover-image="item.image" :price="item.price"/>
+                            :cover-image="item.image || '#'" :price="item.price"/>
                     </div>
                 </div>
             </div>
@@ -47,6 +47,9 @@
 
 <script lang="ts" setup>
 import { TCourse } from '@/entities/Course';
+const { latestCourse } = defineProps<{
+    latestCourse : TCourse[]
+}>()
 
 // const scrollLeft = useState('scrollLeft', ()=> 0)
 const nextIsVisible = useState('nextIsVisible', () => false)
@@ -77,9 +80,7 @@ function scrollToRight():void{
     }
     element.scrollLeft += element.clientWidth
 }
-const { latestCourse } = defineProps<{
-    latestCourse : TCourse[]
-}>()
+
 onMounted(() => {
     if (window !== null) {
         initScroll()
