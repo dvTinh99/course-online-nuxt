@@ -9,16 +9,18 @@ useHead({
   ],
 })
 
-const { data, status, error, refresh, clear } = await useApi('/home')
-const latestCourse = computed(() => data.value.data.latestCourse)
-const popularCourse = computed(() => data.value.data.popularCourse)
+const data = await useApi('/home')
+const latestCourse = computed(() => data.data.latestCourse)
+const popularCourse = computed(() => data.data.popularCourse)
 
 </script>
 <template>
     <div>
         <SectionsHomeHeroSection/>
-        <SectionsHomeLatestPodcast :latestCourse="latestCourse"/>
-        <SectionsHomePopularPodcasts :popularCourse="popularCourse"/>
+        <ClientOnly>
+          <SectionsHomeLatestPodcast :latestCourse="latestCourse" />
+          <SectionsHomePopularPodcasts :popularCourse="popularCourse"/>
+        </ClientOnly>
         <SectionsAboutPodux/>
         <SectionsWhyUs/>
         <SectionsCallToAction/>

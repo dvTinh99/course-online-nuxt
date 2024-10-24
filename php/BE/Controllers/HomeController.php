@@ -8,13 +8,13 @@ class HomeController extends Controller {
             [
                 "id" => 1,
                 "title"  => "khoa 1",
-                "image"  => null,
+                "image"  => "/images/course/Bi-mat-ads-hien-thi-cho-affiliate.png",
                 "price"  => 500
             ],
             [
                 "id" => 2,
                 "title"  => "khoa 2",
-                "image"  => "/images/course/camtasia-marketing-chokhoahoc.png",
+                "image"  => null,
                 "price"  => 500
             ],
             [
