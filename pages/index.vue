@@ -17,12 +17,12 @@ const popularCourse = computed(() => data.data.popularCourse)
 <template>
     <div>
         <SectionsHomeHeroSection/>
-        <ClientOnly>
+        <!-- <ClientOnly> -->
           <SectionsHomeLatestPodcast :latestCourse="latestCourse" />
           <SectionsHomePopularPodcasts :popularCourse="popularCourse"/>
-        </ClientOnly>
-        <SectionsAboutPodux/>
-        <SectionsWhyUs/>
+        <!-- </ClientOnly> -->
+        <!-- <SectionsAboutPodux/> -->
+        <!-- <SectionsWhyUs/> -->
         <SectionsCallToAction/>
     </div>
 </template>

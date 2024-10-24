@@ -12,25 +12,25 @@
                     </NuxtLink>
 
                     <p class="text-gray-600 dark:text-gray-300 pt-6">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia nemo, veritatis
+                        Đây là tạp chí hàng tuần hoàn toàn miễn phí. Mỗi tuần tôi sẽ tổng hợp những quyển sách hay mà tôi đã đọc, những video mà tôi nghĩ là bổ ích, những bài viết, những quyển sách hay mà tôi đã đọc trong tuần đó để gửi tặng các anh chị.
                     </p>
                 </div>
 
-                <BlocksFooterNavBlock title="Enterprise" :links="quickLinks" />
+                <!-- <BlocksFooterNavBlock title="Enterprise" :links="quickLinks" />
                 <BlocksFooterNavBlock title="Ressources" :links="ressourcesLinks" />
                 <BlocksFooterNavBlock title="Support" :links="supportLinks" />
-                <BlocksFooterNavBlock title="Enterprise" :links="quickLinks" />
+                <BlocksFooterNavBlock title="Enterprise" :links="quickLinks" /> -->
             </div>
         </AtomsContainer>
         <div class="py-2 bg-gray-200 dark:bg-[rgb(10,16,29)]">
             <AtomsContainer>
                 <div class="flex justify-between items-center gap-5 text-gray-600 dark:text-gray-300">
-                    <div class="">
+                    <!-- <div class="">
                         &copy; {{ new Date().getFullYear() }} Allright Reserved. Designed by <NuxtLink target="_blank"
                             to="#" class="font-bold text-primary">Kat Mj</NuxtLink>
-                    </div>
+                    </div> -->
 
-                    <div class="flex items-center gap-x-3">
+                    <!-- <div class="flex items-center gap-x-3">
                         <NuxtLink target="_blank" to="#" class="transition hover:!text-primary">
                             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
                                 class="w-5 h-5" viewBox="0 0 16 16">
@@ -48,7 +48,7 @@
                                 </path>
                             </svg>
                         </NuxtLink>
-                    </div>
+                    </div> -->
                 </div>
             </AtomsContainer>
         </div>

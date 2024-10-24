@@ -18,13 +18,12 @@
                 </div>
                 <div class="mx-auto text-center max-w-xl md:max-w-2xl relative">
                     <h2 class="text-gray-800 pt-4 dark:text-white font-bold text-4xl md:text-5xl lg:text-6x">
-                        New Episodes will <span
-                            class="text-transparent bg-clip-text bg-gradient-to-br from-primary to-[#8cd66a]">always</span>
-                        updated regularly
+                        Tạp chí hàng tuần <span
+                            class="text-transparent bg-clip-text bg-gradient-to-br from-primary to-[#8cd66a]">kiến thức</span>
+                        cập nhật thường xuyên
                     </h2>
                     <p class="text-gray-600 dark:text-gray-300 pt-8 mx-auto max-w-xl">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente delectus architecto ullam
-                        earum
+                        Đây là tạp chí hàng tuần hoàn toàn miễn phí. Mỗi tuần tôi sẽ tổng hợp những quyển sách hay mà tôi đã đọc, những video mà tôi nghĩ là bổ ích, những bài viết, những quyển sách hay mà tôi đã đọc trong tuần đó để gửi tặng các anh chị.
                     </p>
                     <div class="mx-auto max-w-md sm:max-w-xl pt-10">
                         <form action="" class="flex items-center relative gap-x-2">
@@ -37,7 +36,7 @@
                                     <span
                                         class="absolute inset-0 rounded-full group-hover:scale-105 origin-center transition-all ease-in-out bg-primary"></span>
                                     <span aria-hidden="true" class="relative hidden sm:flex">
-                                        Subsribe
+                                        Gửi
                                     </span>
                                     <span class="relative flex sm:hidden">
                                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
