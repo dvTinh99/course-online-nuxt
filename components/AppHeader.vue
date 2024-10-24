@@ -9,19 +9,19 @@ function toggleNav(event: MouseEvent): void {
 
 const navLinks = [
     {
-        text: "Podcast",
+        text: "Combo",
         href: "/"
     },
     {
-        text: "Solution",
+        text: "Khóa học dưới 150k",
         href: "/"
     },
     {
-        text: "Blog",
+        text: "Khóa học dưới 500k",
         href: "/"
     },
     {
-        text: "About",
+        text: "Hướng dẫn",
         href: "/"
     }
 ]
@@ -57,10 +57,10 @@ const navLinks = [
                     <ElementsThemeSwitcher />
                     <div class="hidden lg:flex lg:items-center gap-4">
                         <AtomsLinkBtn href="/login" variant="secondary">
-                            Signin
+                            Đăng nhập
                         </AtomsLinkBtn>
                         <AtomsLinkBtn href="/register" variant="primary">
-                            Join Us
+                            Đăng kí
                         </AtomsLinkBtn>
                     </div>
 
@@ -81,14 +81,14 @@ const navLinks = [
                                     <li
                                         class="flex select-none cursor-pointer items-center gap-3 px-2 py-2 rounded-md transition hover:bg-gray-100 dark:hover:bg-gray-800 text-gray-600 dark:text-gray-200">
                                         <NuxtLink to="/register">
-                                            Join-us
+                                            Đăng kí
                                         </NuxtLink>
                                     </li>
 
                                     <li
                                         class="flex select-none cursor-pointer items-center gap-3 px-2 py-2 rounded-md transition hover:bg-gray-100 dark:hover:bg-gray-800 text-gray-600 dark:text-gray-200">
                                         <NuxtLink to="/login">
-                                            Signin
+                                            Đăng nhập
                                         </NuxtLink>
                                     </li>
                                 </ul>

@@ -16,11 +16,11 @@
         <AtomsContainer class-name="relative">
             <div class="flex justify-between pb-6 relative">
                 <div class="">
-                    <AtomsTitle texte="Popular podcast" />
+                    <AtomsTitle texte="Phổ biến nhất" />
                 </div>
                 <div class="flex items-center min-w-max gap-5">
                     <AtomsLinkBtn href="#" variant="primary">
-                        See all
+                        Xem thêm
                     </AtomsLinkBtn>
                 </div>
             </div>

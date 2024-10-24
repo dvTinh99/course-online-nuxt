@@ -1,11 +1,14 @@
 <template>
-    <div class="w-full relative rounded-2xl overflow-hidden">
-        <nuxt-img :src="coverImage" alt="Cover image" width="2280" class="w-full aspect-square object-contain rounded-2xl" />
+    <div class="w-auto h-[14rem] relative rounded-2xl overflow-hidden">
+        <img :src="coverImage"  alt="">
+        <!-- <nuxt-img :src="coverImage" alt="Cover image" width="2280" class="aspect-square rounded-2xl" /> -->
         <span class="absolute top-2 right-2 px-2 rounded-full text-sm text-white bg-primary">
             {{ duration }}
         </span>
         <div
-            class="absolute py-2 px-3 md:py-3 md:px-4 bottom-0 h-28 flex flex-col justify-between inset-x-0 bg-gradient-to-t from-gray-800 bg-opacity-50 backdrop-filter backdrop-blur-sm">
+            class="absolute py-2 px-3 md:py-3 md:px-4 bottom-0 h-28 flex flex-col justify-between inset-x-0 bg-gradient-to-t 
+            from-gray-800 bg-opacity-50 backdrop-filter backdrop-blur-none"
+            >
             <h2 class="text-white font-semibold text-sm sm:text-base line-clamp-2">
                 {{ title }}
             </h2>

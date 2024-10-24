@@ -35,8 +35,8 @@
                     </p>
 
                     <div class="flex items-center gap-3 pt-9 flex-col sm:flex-row sm:w-max sm:mx-auto lg:mx-0">
-                        <AtomsLinkBtn href="#" variant="primary" class="w-full sm:w-max flex justify-center">
-                            Join us
+                        <AtomsLinkBtn href="/register" variant="primary" class="w-full sm:w-max flex justify-center">
+                            Đăng kí
                         </AtomsLinkBtn>
 
                         <AtomsLinkBtn href="#" variant="costum" costum-span-class="px-6 md:px-7 hover:bg-primary/10"
@@ -52,7 +52,7 @@
                                 </span>
 
                                 <span>
-                                    Listening Episode
+                                    Học thử
                                 </span>
                             </div>
                         </AtomsLinkBtn>

@@ -4,11 +4,11 @@
         <AtomsContainer>
             <div class="flex justify-between items-center pb-6">
                 <div class="">
-                    <AtomsTitle texte="Latest Podcast" />
+                    <AtomsTitle texte="Mới nhất" />
                 </div>
                 <div class="flex items-center min-w-max relative">
                     <AtomsLinkBtn href="#" variant="primary">
-                        Explore more
+                        Xem thêm
                     </AtomsLinkBtn>
                 </div>
             </div>
@@ -35,7 +35,7 @@
                     class="flex items-stretch gap-5 overflow-hidden overflow-x-auto invisible-scroll">
                     <div
                         v-for="item in latestCourse"
-                        class=" w-11/12 min-w-[91.666667%] xs:w-80 xs:min-w-[20rem] md:w-1/3 md:min-w-[33.333333%] lg:w-1/4 lg:min-w-[25%]">
+                        class=" w-11/12 min-w-[91.666667%] xs:w-80 xs:min-w-[20rem] md:w-1/3 md:min-w-[33.333333%] lg:w-1/4 lg:min-w-[33%]">
                         <CardsRecentPod :title="item.title" duration="50min" :href="`/detail/${item.id}`"
                             :cover-image="item.image || '#'" :price="item.price"/>
                     </div>
@@ -59,6 +59,10 @@ let element:HTMLDivElement
 if (typeof document !== "undefined") {
     element = document.querySelector("[data-slide-recent]") as HTMLDivElement
 }
+
+onMounted(() => {
+    element = document.querySelector("[data-slide-recent]") as HTMLDivElement
+})
 function initScroll(): void {
     if (typeof element === "undefined" || element === null) {
         return
