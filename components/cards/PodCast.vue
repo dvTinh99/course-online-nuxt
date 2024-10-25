@@ -2,11 +2,11 @@
     <div
         class="lg:p-1 relative h-auto flex flex-col lg:rounded-2xl lg:bg-box-bg lg:shadow-lg lg:shadow-box-shadow lg:border lg:border-box-border">
         <div class="relative h-max min-h-max">
-            <img :src="coverImage"  alt="" class="rounded-xl max-h-56">
+            <img :src="`/images/image-craw/${coverImage}`"  alt="" class="rounded-xl max-h-56">
             <!-- <nuxt-img :src="coverImage" alt="Cover image" width="280"
                 class="w-full h-32 sm:h-36 md:h-40 lg:h-48 rounded-xl object-cover"/> -->
                 <span class="absolute top-2 right-2 px-2 rounded-full text-sm text-white bg-primary">
-            {{ price }} đ
+            {{ new Intl.NumberFormat('vi-VN', { style: 'currency', currency: 'VND' }).format(price) }}
         </span>
         </div>
         <div class="lg:px-2 pt-2 lg:pb-4 xl:px-4 md:pt-4  h-full flex flex-col justify-between">
@@ -50,5 +50,4 @@ const { title, href, duration, price, coverImage, category, createdAt, descripti
     description: string
 }>()
 
-console.log('price', price)
 </script>

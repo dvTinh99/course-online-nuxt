@@ -32,7 +32,7 @@
                     :href="`/detail/${item.id}`"
                     duration="24min"
                     :price="item.price"
-                    :cover-image="item.image || '#'" 
+                    :cover-image="item.name || '#'" 
                     category="" 
                     created-at=""
                     :description="item.description" 
@@ -50,4 +50,6 @@ import { TCourse } from '@/entities/Course';
 const { popularCourse } = defineProps<{
     popularCourse : TCourse[]
 }>()
+
+console.log( popularCourse)
 </script>
