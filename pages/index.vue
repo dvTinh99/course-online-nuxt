@@ -12,17 +12,20 @@ useHead({
 })
 import { TCourse } from '@/entities/Course';
 const popularCourse = data as TCourse
+const showModal = ref(true)
 
 </script>
 <template>
     <div>
+        
         <SectionsHomeHeroSection/>
         <!-- <ClientOnly> -->
         <!-- <SectionsHomeLatestPodcast :latestCourse="latestCourse" /> -->
-          <SectionsHomePopularPodcasts :popularCourse="popularCourse"/>
+          <SectionsHomePopularPodcasts :popularCourse="popularCourse" v-model:showModal="showModal"/>
         <!-- </ClientOnly> -->
         <!-- <SectionsAboutPodux/> -->
         <!-- <SectionsWhyUs/> -->
         <SectionsCallToAction/>
+        <SaveModal v-show="showModal" v-model:showModal="showModal"/>
     </div>
 </template>

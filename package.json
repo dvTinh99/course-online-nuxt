@@ -7,7 +7,7 @@
     "generate": "nuxt generate; npm run deploy",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
-    "deploy" : "cp -r ./.output/public ./php/FE"
+    "deploy": "cp -r ./.output/public ./php/FE"
   },
   "devDependencies": {
     "@nuxt/devtools": "^1.6.0",
@@ -16,7 +16,7 @@
     "@nuxtjs/color-mode": "^3.2.0",
     "@nuxtjs/tailwindcss": "^6.7.2",
     "autoprefixer": "^10.4.14",
-    "nuxt": "^3.3.3",
+    "nuxt": "^3.13.2",
     "postcss": "^8.4.21",
     "tailwindcss": "^3.3.1"
   }
