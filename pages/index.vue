@@ -12,7 +12,7 @@ useHead({
 })
 import { TCourse } from '@/entities/Course';
 const popularCourse = data as TCourse
-const showModal = ref(true)
+const showModal = ref(false)
 
 </script>
 <template>
