@@ -86,15 +86,15 @@
                             class="absolute z-0 top-1/2  -translate-y-1/2 w-5/6 right-0 h-[calc(80%+20px)] bg-gradient-to-tr opacity-25 from-primary to-pink-300 dark:from-[#570cac] dark:to-primary blur-2xl">
                         </div>
                         <div
-                            class="absolute w-3/5 h-full z-10 p-1 -translate-y-1/2 top-1/2 right-3 rounded-3xl bg-white dark:bg-body shadow-lg shadow-box-shadow border border-box-border">
-                            <img src="/images/course/banner.webp" alt="In studio" width="500" height="auto" loading="lazy"
+                            class="absolute w-max h-full z-10 p-1 -translate-y-1/2 top-1/2 right-3 rounded-3xl bg-white dark:bg-body shadow-lg shadow-box-shadow border border-box-border">
+                            <img src="/images/course/banner3.webp" alt="In studio" width="500" height="auto" loading="lazy"
                                 class="w-full h-full rounded-2xl object-fit">
                         </div>
-                        <div
+                        <!-- <div
                             class="absolute  -translate-y-1/2 top-1/2 h-[calc(80%-2rem)] w-[calc(40%-20px)] p-1 rounded-3xl bg-white dark:bg-body shadow-lg shadow-box-shadow border border-box-border ">
                             <img src="/images/course/banner2.webp" alt="Happy in studio" width="200" height="auto"
                                 loading="lazy" class="w-full h-full rounded-2xl object-fit">
-                        </div>
+                        </div> -->
                     </div>
                 </div>
             </div>
