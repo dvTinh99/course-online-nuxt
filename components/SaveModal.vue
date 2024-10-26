@@ -12,7 +12,7 @@
             <div>
               <h1 class="main__name">Bray Nguyễn</h1>
               <div class="main__profile-type">Liên hệ</div>
-              <a href="https://chat.zalo.me/?c=8696624200497859066" target="_blank">
+              <a href="zalo://conversation?id=8696624200497859066" target="_blank">
                 <button
                   type="button"
                   class="button medium"
