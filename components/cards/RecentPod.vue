@@ -1,6 +1,6 @@
 <template>
     <div class="w-auto h-[14rem] relative rounded-2xl overflow-hidden">
-        <img :src="coverImage"  alt="">
+        <img :src="coverImage"  alt="khokhoahoc.site">
         <!-- <nuxt-img :src="coverImage" alt="Cover image" width="2280" class="aspect-square rounded-2xl" /> -->
         <span class="absolute top-2 right-2 px-2 rounded-full text-sm text-white bg-primary">
             {{ duration }}

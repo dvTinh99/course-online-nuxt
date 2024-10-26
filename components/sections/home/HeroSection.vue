@@ -87,7 +87,7 @@
                         </div>
                         <div
                             class="absolute w-max h-full z-10 p-1 -translate-y-1/2 top-1/2 right-3 rounded-3xl bg-white dark:bg-body shadow-lg shadow-box-shadow border border-box-border">
-                            <img src="/images/course/banner3.webp" alt="In studio" width="500" height="auto" loading="lazy"
+                            <img src="/images/course/banner3.webp" alt="khokhoahoc.site" width="500" height="auto" loading="lazy"
                                 class="w-full h-full rounded-2xl object-fit">
                         </div>
                         <!-- <div

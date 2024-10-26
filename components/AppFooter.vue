@@ -4,7 +4,7 @@
             <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-8 gap-y-10">
                 <div class="col-span-2 md:col-span-4 lg:col-span-2">
                     <NuxtLink to="/" class=" flex items-center gap-2">
-                        <img src="/logo/logo-not-dot.webp" class="w-[200px] h-auto" />
+                        <img src="/logo/logo-not-dot.webp" class="w-[200px] h-auto" alt="khokhoahoc.site"/>
                     </NuxtLink>
 
                     <p class="text-gray-600 dark:text-gray-300 pt-6">
