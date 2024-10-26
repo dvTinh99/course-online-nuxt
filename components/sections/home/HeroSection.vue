@@ -35,11 +35,11 @@
                     </p>
 
                     <div class="flex items-center gap-3 pt-9 flex-col sm:flex-row sm:w-max sm:mx-auto lg:mx-0">
-                        <AtomsLinkBtn href="/register" variant="primary" class="w-full sm:w-max flex justify-center">
+                        <!-- <AtomsLinkBtn href="/register" variant="primary" class="w-full sm:w-max flex justify-center">
                             Đăng kí
-                        </AtomsLinkBtn>
+                        </AtomsLinkBtn> -->
 
-                        <AtomsLinkBtn href="#" variant="costum" costum-span-class="px-6 md:px-7 hover:bg-primary/10"
+                        <!-- <AtomsLinkBtn href="#" variant="costum" costum-span-class="px-6 md:px-7 hover:bg-primary/10"
                             costum-text-color="text-primary ">
                             <div class="flex items-center gap-3">
                                 <span class="p-2 rounded-full border border-primary">
@@ -55,9 +55,9 @@
                                     Học thử
                                 </span>
                             </div>
-                        </AtomsLinkBtn>
+                        </AtomsLinkBtn> -->
                     </div>
-                    <div class="pt-8 lg:pt-10 w-max mx-auto lg:mx-0">
+                    <!-- <div class="pt-8 lg:pt-10 w-max mx-auto lg:mx-0">
                         <div class="flex items-center text-center flex-col sm:flex-row gap-4 sm:gap-0">
                             <div class="flex items-center">
                                 <img src="/images/sidebiew.webp" width="40" alt="avatar"
@@ -77,7 +77,7 @@
                                 WordWide listners
                             </div>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
                 <div class="lg:h-full  hidden md:flex">
 

@@ -56,12 +56,12 @@ const navLinks = [
                 <div class="flex items-center bg-inherit gap-1 lg:gap-3 min-w-max">
                     <ElementsThemeSwitcher />
                     <div class="hidden lg:flex lg:items-center gap-4">
-                        <AtomsLinkBtn href="/login" variant="secondary">
+                        <!-- <AtomsLinkBtn href="/login" variant="secondary">
                             Đăng nhập
                         </AtomsLinkBtn>
                         <AtomsLinkBtn href="/register" variant="primary">
                             Đăng kí
-                        </AtomsLinkBtn>
+                        </AtomsLinkBtn> -->
                     </div>
 
                     <div class="flex lg:hidden items-center">
@@ -77,7 +77,7 @@ const navLinks = [
                                 </button>
                             </template>
                             <template #content>
-                                <ul class="flex flex-col">
+                                <!-- <ul class="flex flex-col">
                                     <li
                                         class="flex select-none cursor-pointer items-center gap-3 px-2 py-2 rounded-md transition hover:bg-gray-100 dark:hover:bg-gray-800 text-gray-600 dark:text-gray-200">
                                         <NuxtLink to="/register">
@@ -91,7 +91,7 @@ const navLinks = [
                                             Đăng nhập
                                         </NuxtLink>
                                     </li>
-                                </ul>
+                                </ul> -->
                             </template>
                         </ElementsDropDown>
                     </div>

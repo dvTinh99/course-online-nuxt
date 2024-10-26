@@ -7,7 +7,7 @@
     "generate": "nuxt generate; npm run deploy",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
-    "deploy": "cp -r ./.output/public ./php/FE"
+    "deploy": "cp -r ./.output/public ./php/FE/public"
   },
   "devDependencies": {
     "@nuxt/devtools": "^1.6.0",
