@@ -4,7 +4,7 @@ import data from '@/configs/data.json'
 useHead({
   title: 'Podux - Home',
   meta: [
-    { name: 'description', content: 'Podux Podcast landing page website.' },
+    { name: 'description', content: 'Cho khoa hoc re nhat viet nam' },
   ],
   link: [
     { rel: 'icon', type: 'image/png', href: '/logo.png' }

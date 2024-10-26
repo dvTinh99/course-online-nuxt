@@ -8,22 +8,22 @@ function toggleNav(event: MouseEvent): void {
 }
 
 const navLinks = [
-    {
-        text: "Combo",
-        href: "/"
-    },
-    {
-        text: "Khóa học dưới 150k",
-        href: "/"
-    },
-    {
-        text: "Khóa học dưới 500k",
-        href: "/"
-    },
-    {
-        text: "Hướng dẫn",
-        href: "/"
-    }
+    // {
+    //     text: "Combo",
+    //     href: "/"
+    // },
+    // {
+    //     text: "Khóa học dưới 150k",
+    //     href: "/"
+    // },
+    // {
+    //     text: "Khóa học dưới 500k",
+    //     href: "/"
+    // },
+    // {
+    //     text: "Hướng dẫn",
+    //     href: "/"
+    // }
 ]
 
 </script>
