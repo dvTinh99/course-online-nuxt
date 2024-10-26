@@ -38,6 +38,7 @@
           :description="item.description"
           v-for="item in popularCourse"
           @click="showModal = true"
+          v-model:showModal="showModal"
         />
       </div>
     </AtomsContainer>
