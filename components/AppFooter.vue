@@ -4,11 +4,7 @@
             <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-8 gap-y-10">
                 <div class="col-span-2 md:col-span-4 lg:col-span-2">
                     <NuxtLink to="/" class=" flex items-center gap-2">
-                        <span class="flex">
-                            <span class="w-3 h-6 rounded-l-full flex bg-primary"></span>
-                            <span class="w-3 h-6 rounded-r-full flex bg-[#f88fc2] mt-2"></span>
-                        </span>
-                        <span class="text-xl font-bold text-gray-700 dark:text-white">Podux</span>
+                        <img src="/logo/logo-not-dot.webp" class="w-[200px] h-auto" />
                     </NuxtLink>
 
                     <p class="text-gray-600 dark:text-gray-300 pt-6">
