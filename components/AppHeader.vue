@@ -34,7 +34,7 @@ const navLinks = [
                 <!-- app logo -->
                 <div class="inline-flex relative bg-inherit">
                     <NuxtLink to="/" class=" flex items-center gap-2">
-                        <img src="/logo/logo-not-dot.png" class="w-[200px] h-auto" />
+                        <img src="/logo/logo-not-dot.webp" class="w-[200px] h-auto" />
                     </NuxtLink>
                 </div>
                 <div 

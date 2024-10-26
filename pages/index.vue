@@ -7,7 +7,7 @@ useHead({
     { name: 'description', content: 'Cho khoa hoc re nhat viet nam' },
   ],
   link: [
-    { rel: 'icon', type: 'image/png', href: '/logo/icon-notback.png' }
+    { rel: 'icon', type: 'image/webp', href: '/logo/icon-notback.webp' }
   ],
   script: [
     { type: 'text/javascript', async: true, src : "https://www.googletagmanager.com/gtag/js?id=G-4F63DE4FTS"},
