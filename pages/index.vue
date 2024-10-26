@@ -2,13 +2,22 @@
 import data from '@/configs/data.json'
 
 useHead({
-  title: 'Podux - Home',
+  title: 'Kho khoa hoc',
   meta: [
     { name: 'description', content: 'Cho khoa hoc re nhat viet nam' },
   ],
   link: [
-    { rel: 'icon', type: 'image/png', href: '/logo.png' }
+    { rel: 'icon', type: 'image/png', href: '/logo/icon-notback.png' }
   ],
+  script: [
+    { type: 'text/javascript', async: true, src : "https://www.googletagmanager.com/gtag/js?id=G-4F63DE4FTS"},
+    { type: 'text/javascript', children: `window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-4F63DE4FTS');`
+    }
+  ]
 })
 import { TCourse } from '@/entities/Course';
 const popularCourse = data as TCourse
@@ -25,7 +34,7 @@ const showModal = ref(false)
         <!-- </ClientOnly> -->
         <!-- <SectionsAboutPodux/> -->
         <!-- <SectionsWhyUs/> -->
-        <SectionsCallToAction/>
+        <!-- <SectionsCallToAction/> -->
         <SaveModal v-show="showModal" v-model:showModal="showModal"/>
 
         <a href="tel:0522339417">

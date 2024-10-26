@@ -12,7 +12,6 @@
                     </NuxtLink>
 
                     <p class="text-gray-600 dark:text-gray-300 pt-6">
-                        Đây là tạp chí hàng tuần hoàn toàn miễn phí. Mỗi tuần tôi sẽ tổng hợp những quyển sách hay mà tôi đã đọc, những video mà tôi nghĩ là bổ ích, những bài viết, những quyển sách hay mà tôi đã đọc trong tuần đó để gửi tặng các anh chị.
                     </p>
                 </div>
 
