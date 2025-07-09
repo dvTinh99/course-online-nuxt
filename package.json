@@ -4,7 +4,7 @@
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
-    "generate": "nuxt generate; npm run deploy",
+    "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
     "deploy": "cp -r ./.output/public ./php/FE/public"
